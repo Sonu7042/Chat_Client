@@ -48,6 +48,9 @@ export const Chat = ({ socket, username, room }) => {
   }, [messageList])
 
 
+
+
+  console.log("array data", messageList)
   return (
     <>
       <div className="chat_container">
